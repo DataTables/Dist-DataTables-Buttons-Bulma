@@ -1,0 +1,15 @@
+{
+    "js": [
+        "js/buttons.bulma.js",
+        "js/buttons.bulma.min.js"
+    ],
+    "css": [
+        "css/buttons.bulma.css",
+        "css/buttons.bulma.min.css"
+    ],
+    "types": [
+        "types/buttons.bulma.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/Buttons",
+    "last-tag": "1.7.0"
+}
