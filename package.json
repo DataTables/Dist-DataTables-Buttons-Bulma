@@ -3,6 +3,7 @@
     "description": "Buttons for DataTables with styling for [Bulma](https://bulma.io/)",
     "main": "js/buttons.bulma.js",
     "style": "css/buttons.bulma.css",
+    "types": "./types/buttons.bulma.d.ts",
     "version": "1.7.0",
     "files": [
         "css/**/*.css",
