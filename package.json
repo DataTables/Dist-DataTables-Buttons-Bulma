@@ -4,18 +4,18 @@
     "main": "js/buttons.bulma.js",
     "style": "css/buttons.bulma.css",
     "types": "./types/buttons.bulma.d.ts",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "Buttons",
- "Column Visibility",
- "csv",
- "excel",
- "pdf",
- "print",
+        "Column Visibility",
+        "csv",
+        "excel",
+        "pdf",
+        "print",
         "Bulma",
         "Datatables",
         "jQuery",
@@ -24,8 +24,6 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-buttons": ">=1.7.0",
-        "datatables.net-bm": ">=1.10.24",
         "jquery": ">=1.7"
     },
     "moduleType": [
