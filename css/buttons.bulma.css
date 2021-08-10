@@ -52,6 +52,10 @@ div.dt-button-info > div {
   padding: 1em;
 }
 
+button.dtb-hide-drop {
+  display: none !important;
+}
+
 div.dt-button-collection-title {
   text-align: center;
   padding: 0.3em 0 0.5em;
@@ -74,6 +78,9 @@ div.dt-button-collection div.dropdown-menu {
 div.dt-button-collection div.dt-button-collection-title {
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.15);
+}
+div.dt-button-collection div.dt-btn-split-wrapper {
+  width: 100%;
 }
 div.dt-button-collection.fixed {
   position: fixed;
