@@ -203,3 +203,9 @@ div.dt-buttons a.btn.processing:after {
   -webkit-animation: dtb-spinner 1500ms infinite linear;
   -moz-animation: dtb-spinner 1500ms infinite linear;
 }
+div.dt-buttons button.button {
+  margin-left: 5px;
+}
+div.dt-buttons button.button:first-child {
+  margin-left: 0px;
+}
