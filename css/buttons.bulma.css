@@ -101,6 +101,7 @@ div.dt-button-collection span.dt-button-spacer.bar {
 div.dt-button-collection {
   position: absolute;
   z-index: 2001;
+  min-width: 200px;
 }
 div.dt-button-collection div.dropdown-menu {
   display: block;
@@ -116,6 +117,39 @@ div.dt-button-collection div.dt-btn-split-wrapper {
   padding-left: 5px;
   padding-right: 5px;
   margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: stretch;
+}
+div.dt-button-collection div.dt-btn-split-wrapper button {
+  margin-right: 0px;
+  display: inline-block;
+  width: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 50px;
+  margin-top: 0px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+div.dt-button-collection div.dt-btn-split-wrapper button.dt-button {
+  min-width: 30px;
+  margin-left: -1px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 0;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 0px;
 }
 div.dt-button-collection.fixed {
   position: fixed;
