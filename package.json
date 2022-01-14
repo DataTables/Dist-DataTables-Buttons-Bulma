@@ -4,7 +4,7 @@
     "main": "js/buttons.bulma.js",
     "style": "css/buttons.bulma.css",
     "types": "./types/buttons.bulma.d.ts",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
