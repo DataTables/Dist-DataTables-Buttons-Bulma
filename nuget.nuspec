@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>Buttons  Column Visibility  csv  excel  pdf  print  Bulma  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-buttons" version="2.0.1"/>
-            <dependency id="datatables.net-bm" version="1.11.3"/>
+            <dependency id="datatables.net-buttons" version="2.2.2"/>
+            <dependency id="datatables.net-bm" version="1.11.5"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -26,8 +26,6 @@
         <file src="css/buttons.bulma.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/buttons.bulma.min.css" target="content\Content"/>
         <file src="css/buttons.bulma.min.css" target="contentFiles\any\any\wwwroot\css"/>
-        <file src="types/buttons.bulma.d.ts" target="content\Scripts"/>
-        <file src="types/buttons.bulma.d.ts" target="contentFiles\any\any\wwwroot\js"/>
     </files>
 </package>
 
