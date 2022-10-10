@@ -2,12 +2,14 @@
     "name": "datatables.net-buttons-bm",
     "description": "Buttons for DataTables with styling for [Bulma](https://bulma.io/)",
     "main": "js/buttons.bulma.js",
+    "module": "js/buttons.bulma.mjs",
     "style": "css/buttons.bulma.css",
     "types": "./types/buttons.bulma.d.ts",
     "version": "2.2.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
