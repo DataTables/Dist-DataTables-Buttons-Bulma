@@ -1,4 +1,3 @@
-
 /*! Bulma integration for DataTables' Buttons
  * ©2021 SpryMedia Ltd - datatables.net/license
  */
