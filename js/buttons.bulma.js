@@ -1,5 +1,5 @@
 /*! Bulma integration for DataTables' Buttons
- * ©2021 SpryMedia Ltd - datatables.net/license
+ * © SpryMedia Ltd - datatables.net/license
  */
 
 (function( factory ){
@@ -53,7 +53,7 @@ var DataTable = $.fn.dataTable;
 
 
 
-$.extend( true, DataTable.Buttons.defaults, {
+$.extend(true, DataTable.Buttons.defaults, {
 	dom: {
 		container: {
 			className: 'dt-buttons field is-grouped'
@@ -67,7 +67,7 @@ $.extend( true, DataTable.Buttons.defaults, {
 			action: {
 				tag: 'div',
 				className: 'dropdown-content',
-				dropHtml: '',
+				dropHtml: ''
 			},
 			button: {
 				tag: 'a',
@@ -108,24 +108,23 @@ $.extend( true, DataTable.Buttons.defaults, {
 			}
 		}
 	},
-	buttonCreated: function ( config, button ) {
+	buttonCreated: function (config, button) {
 		// For collections
 		if (config.buttons) {
 			// Wrap the dropdown content in a menu element
-			config._collection = $('<div class="dropdown-menu"/>')
-				.append(config._collection);
-			
+			config._collection = $('<div class="dropdown-menu"/>').append(config._collection);
+
 			// And add the collection dropdown icon
 			$(button).append(
 				'<span class="icon is-small">' +
 					'<i class="fa fa-angle-down" aria-hidden="true"></i>' +
-				'</span>'
+					'</span>'
 			);
 		}
 
 		return button;
 	}
-} );
+});
 
 
 return DataTable;
