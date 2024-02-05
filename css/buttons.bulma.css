@@ -166,6 +166,11 @@ div.dt-button-collection span.dt-button-spacer.bar {
   padding-left: 0;
 }
 
+@media print {
+  table.dataTable tr > * {
+    box-shadow: none !important;
+  }
+}
 html.dark div.dt-button-info {
   background-color: var(--dt-html-background);
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -385,7 +390,7 @@ div.dt-buttons a.btn.processing:after {
   box-sizing: border-box;
   display: block;
   content: " ";
-  border: 2px solid #282828;
+  border: 2px solid rgb(40, 40, 40);
   border-radius: 50%;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -455,7 +460,7 @@ div.dt-button-split:active:not(.disabled) button, div.dt-button-split.active:not
 }
 div.dt-button-split:active:not(.disabled) button.dt-button, div.dt-button-split.active:not(.disabled) button.dt-button, div.dt-button-split.is-active:not(.disabled) button.dt-button {
   box-shadow: none;
-  background-color: whitesmoke;
+  background-color: rgb(245, 245, 245);
   border-color: transparent;
 }
 div.dt-button-split:active:not(.disabled) button:hover, div.dt-button-split.active:not(.disabled) button:hover, div.dt-button-split.is-active:not(.disabled) button:hover {
