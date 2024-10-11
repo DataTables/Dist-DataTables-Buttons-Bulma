@@ -61,13 +61,14 @@ $.extend(true, DataTable.Buttons.defaults, {
 		button: {
 			className: 'button',
 			active: 'is-active',
-			disabled: 'is-disabled'
+			disabled: 'is-disabled',
+			dropHtml: '<span class="icon is-small"><i class="fa fa-angle-down" aria-hidden="true"></i></span>',
+			dropClass: ''
 		},
 		collection: {
 			action: {
 				tag: 'div',
-				className: 'dropdown-content',
-				dropHtml: ''
+				className: 'dropdown-content'
 			},
 			button: {
 				tag: 'a',
@@ -95,7 +96,6 @@ $.extend(true, DataTable.Buttons.defaults, {
 			},
 			dropdown: {
 				tag: 'button',
-				dropHtml: '<i class="fa fa-angle-down" aria-hidden="true"></i>',
 				className: 'button',
 				closeButton: false,
 				align: 'split-left',
@@ -113,13 +113,6 @@ $.extend(true, DataTable.Buttons.defaults, {
 		if (config.buttons) {
 			// Wrap the dropdown content in a menu element
 			config._collection = $('<div class="dropdown-menu"/>').append(config._collection);
-
-			// And add the collection dropdown icon
-			$(button).append(
-				'<span class="icon is-small">' +
-					'<i class="fa fa-angle-down" aria-hidden="true"></i>' +
-					'</span>'
-			);
 		}
 
 		return button;
