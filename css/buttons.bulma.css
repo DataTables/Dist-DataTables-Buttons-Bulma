@@ -191,6 +191,9 @@ div.dt-button-collection a.dt-button {
   align-items: center;
   padding-right: 0.5rem;
 }
+div.dt-button-collection a.dt-button:focus {
+  outline-offset: -2px;
+}
 div.dt-button-collection div.dt-button-split {
   display: flex;
   flex-direction: row;
