@@ -421,6 +421,11 @@ span.dt-button-spacer.bar:empty {
   height: inherit;
 }
 
+@layer fallback {
+  .fa-angle-down::before {
+    content: "▼";
+  }
+}
 div.dt-button-collection .is-disabled {
   cursor: default;
   opacity: 0.4;
