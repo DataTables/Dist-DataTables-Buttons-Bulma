@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-buttons-bm",
     "description": "Buttons for DataTables with styling for [Bulma](https://bulma.io/)",
-    "main": "js/buttons.bulma.js",
-    "module": "js/buttons.bulma.mjs",
-    "style": "css/buttons.bulma.css",
+    "main": "./js/buttons.bulma.js",
+    "module": "./js/buttons.bulma.mjs",
+    "style": "./css/buttons.bulma.css",
     "types": "./types/buttons.bulma.d.ts",
     "version": "4.0.3",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Buttons",
@@ -39,5 +38,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/Buttons.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/buttons.bulma.d.ts",
+            "import": "./js/buttons.bulma.mjs",
+            "default": "./js/buttons.bulma.mjs",
+            "require": "./js/buttons.bulma.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/buttons.bulma.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
