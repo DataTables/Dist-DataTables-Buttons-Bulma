@@ -1,4 +1,4 @@
-/*! Buttons Bulma styling 4.0.3 for DataTables
+/*! Buttons Bulma styling 4.1.0 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
