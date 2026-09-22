@@ -5,7 +5,7 @@
     "module": "./js/buttons.bulma.mjs",
     "style": "./css/buttons.bulma.css",
     "types": "./types/buttons.bulma.d.ts",
-    "version": "4.0.3",
+    "version": "4.1.0",
     "files": [
         "js",
         "css",
@@ -25,8 +25,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-buttons": "4.0.3",
-        "datatables.net-bm": "^3"
+        "datatables.net-buttons": "4.1.0",
+        "datatables.net-bm": "^3.1"
     },
     "author": {
         "name": "SpryMedia Ltd",
