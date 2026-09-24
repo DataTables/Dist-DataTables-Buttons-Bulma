@@ -42,9 +42,10 @@
     "exports": {
         ".": {
             "types": "./types/buttons.bulma.d.ts",
+            "style": "./css/buttons.bulma.css",
             "import": "./js/buttons.bulma.mjs",
-            "default": "./js/buttons.bulma.mjs",
-            "require": "./js/buttons.bulma.js"
+            "require": "./js/buttons.bulma.js",
+            "default": "./js/buttons.bulma.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
