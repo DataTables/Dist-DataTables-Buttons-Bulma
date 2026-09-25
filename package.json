@@ -5,7 +5,7 @@
     "module": "./js/buttons.bulma.mjs",
     "style": "./css/buttons.bulma.css",
     "types": "./types/buttons.bulma.d.ts",
-    "version": "4.1.1",
+    "version": "4.1.2",
     "files": [
         "js",
         "css",
@@ -25,7 +25,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-buttons": "4.1.1",
+        "datatables.net-buttons": "4.1.2",
         "datatables.net-bm": "^3.1"
     },
     "author": {
